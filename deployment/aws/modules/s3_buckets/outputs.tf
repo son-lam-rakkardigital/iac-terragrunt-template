@@ -1,0 +1,9 @@
+## tf outputs
+
+output "bucket_name" {
+  value = aws_s3_bucket.bucket.id
+}
+
+output "aws_region" {
+  value = var.aws_region
+}
