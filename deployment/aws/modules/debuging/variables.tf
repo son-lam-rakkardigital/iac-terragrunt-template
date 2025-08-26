@@ -22,7 +22,7 @@ variable "environment" {
 
 variable "extend_variable" {
   type = map(string)
-  # It can be overwrite
+  # It can be overwritten
   default = {}
 }
 
