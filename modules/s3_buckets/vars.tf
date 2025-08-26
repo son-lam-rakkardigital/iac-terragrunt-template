@@ -11,3 +11,8 @@ variable "aws_region" {
 variable "bucket_name_prefix" {
   type = string
 }
+
+variable "enable_versioning" {
+  type    = bool
+  default = false
+}
