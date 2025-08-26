@@ -1,5 +1,8 @@
 # iac-terragrunt-template
 This project provisions S3 bucket from Terraform module to sandbox accounts using Terragrunt.
+
+The S3 bucket module supports optional versioning via the `enable_versioning` variable, which defaults to `false`.
+
 # Preconfiguration
 
 Before running any Terragrunt commands, ensure that the `project_name` is set in the `locals` block in `deployment/aws/_config/project.hcl`. This is required for proper configuration.
