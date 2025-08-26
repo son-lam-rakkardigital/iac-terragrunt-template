@@ -1,4 +1,9 @@
 # iac-terragrunt-template
+This project provisions S3 bucket from Terraform module to sandbox accounts using Terragrunt.
+
+The S3 bucket module supports optional versioning via the `enable_versioning` variable, which defaults to `false`.
+
+# Preconfiguration
 
 Starter template for managing infrastructure as code with Terraform modules orchestrated by Terragrunt. It demonstrates how to provision AWS resources—S3 buckets, VPCs, and EC2 instances—across multiple accounts and regions.
 
