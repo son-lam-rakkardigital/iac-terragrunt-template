@@ -12,7 +12,7 @@ dependency "vpc" {
 }
 
 inputs = {
-  # It will be overwrite
+  # It will be overwritten
   # name          = "single-instance"
   instance_type = "t2.micro"
   monitoring    = true
